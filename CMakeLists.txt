@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
-project(basic-00-example)
+project(relationship-02-aggregation)
 
-set(CMAKE_CXX_STANDARD 17)
-add_executable(sample Basic00Example.cpp)
+set(SOURCE_FILES main.cpp Profesor.cpp Profesor.h Departamento.cpp Departamento.h)
+
+add_executable(RelacionAgregacion ${SOURCE_FILES})
